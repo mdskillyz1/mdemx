@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 820">
+  <defs>
+    <linearGradient id="n-bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#eefcf3"/>
+      <stop offset=".52" stop-color="#d2f8df"/>
+      <stop offset="1" stop-color="#07110c"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="820" rx="34" fill="url(#n-bg)"/>
+  <rect x="48" y="48" width="1104" height="72" rx="24" fill="#ffffff" opacity=".94"/>
+  <text x="92" y="92" font-family="Arial, sans-serif" font-size="30" font-weight="800" fill="#0f1b14">Nour Electricals</text>
+  <text x="720" y="91" font-family="Arial, sans-serif" font-size="18" fill="#536159">Services</text>
+  <text x="828" y="91" font-family="Arial, sans-serif" font-size="18" fill="#536159">Projects</text>
+  <text x="936" y="91" font-family="Arial, sans-serif" font-size="18" fill="#536159">Reviews</text>
+  <rect x="1022" y="64" width="94" height="40" rx="20" fill="#a7f3c2"/>
+  <text x="1048" y="90" font-family="Arial, sans-serif" font-size="16" font-weight="700" fill="#07110c">Quote</text>
+  <rect x="72" y="152" width="1056" height="330" rx="30" fill="#08110d"/>
+  <path d="M900 142 750 512h190l-82 168 250-286H918l96-252Z" fill="#a7f3c2" opacity=".2"/>
+  <text x="118" y="232" font-family="Georgia, serif" font-size="62" font-weight="700" fill="#f7fff9">Trusted electrical</text>
+  <text x="118" y="302" font-family="Georgia, serif" font-size="62" font-style="italic" font-weight="700" fill="#a7f3c2">services online.</text>
+  <text x="122" y="362" font-family="Arial, sans-serif" font-size="24" fill="#cfe7d7">A fast business website with quote forms, local SEO, and trust-building service pages.</text>
+  <rect x="122" y="408" width="142" height="50" rx="25" fill="#a7f3c2"/>
+  <text x="153" y="440" font-family="Arial, sans-serif" font-size="17" font-weight="700" fill="#07110c">Get quote</text>
+  <rect x="294" y="408" width="180" height="50" rx="25" fill="none" stroke="#a7f3c2" stroke-width="2"/>
+  <text x="327" y="440" font-family="Arial, sans-serif" font-size="17" font-weight="700" fill="#f7fff9">Emergency call</text>
+  <rect x="94" y="540" width="230" height="146" rx="24" fill="#ffffff" opacity=".92"/>
+  <rect x="364" y="540" width="230" height="146" rx="24" fill="#ffffff" opacity=".92"/>
+  <rect x="634" y="540" width="230" height="146" rx="24" fill="#ffffff" opacity=".92"/>
+  <rect x="904" y="540" width="200" height="146" rx="24" fill="#ffffff" opacity=".92"/>
+  <text x="126" y="600" font-family="Arial, sans-serif" font-size="20" font-weight="800" fill="#102017">Quote form</text>
+  <text x="396" y="600" font-family="Arial, sans-serif" font-size="20" font-weight="800" fill="#102017">Local SEO</text>
+  <text x="666" y="600" font-family="Arial, sans-serif" font-size="20" font-weight="800" fill="#102017">Trust signals</text>
+  <text x="936" y="600" font-family="Arial, sans-serif" font-size="20" font-weight="800" fill="#102017">Fast pages</text>
+  <text x="126" y="638" font-family="Arial, sans-serif" font-size="15" fill="#536159">Simple enquiry capture</text>
+  <text x="396" y="638" font-family="Arial, sans-serif" font-size="15" fill="#536159">Service-area keywords</text>
+  <text x="666" y="638" font-family="Arial, sans-serif" font-size="15" fill="#536159">Reviews and badges</text>
+  <text x="936" y="638" font-family="Arial, sans-serif" font-size="15" fill="#536159">Mobile-first build</text>
+</svg>

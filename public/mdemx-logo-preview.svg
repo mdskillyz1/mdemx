@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">MDemx logo preview</title>
+  <desc id="desc">MDemx mint green logo mark and wordmark on a dark charcoal background.</desc>
+  <defs>
+    <radialGradient id="mintGlow" cx="32%" cy="24%" r="62%">
+      <stop offset="0%" stop-color="#a7f3c2" stop-opacity="0.34"/>
+      <stop offset="46%" stop-color="#4ade80" stop-opacity="0.13"/>
+      <stop offset="100%" stop-color="#08110d" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="markBg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#102018"/>
+      <stop offset="100%" stop-color="#07110c"/>
+    </linearGradient>
+    <filter id="softShadow" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="28" stdDeviation="28" flood-color="#000000" flood-opacity="0.42"/>
+      <feDropShadow dx="0" dy="0" stdDeviation="18" flood-color="#a7f3c2" flood-opacity="0.16"/>
+    </filter>
+  </defs>
+
+  <rect width="1600" height="900" fill="#08110d"/>
+  <rect width="1600" height="900" fill="url(#mintGlow)"/>
+  <circle cx="1310" cy="170" r="250" fill="#a7f3c2" opacity="0.045"/>
+  <circle cx="220" cy="760" r="270" fill="#4ade80" opacity="0.055"/>
+
+  <g transform="translate(268 290)" filter="url(#softShadow)">
+    <rect x="0" y="0" width="232" height="232" rx="54" fill="url(#markBg)" stroke="#a7f3c2" stroke-opacity="0.22" stroke-width="3"/>
+    <circle cx="73" cy="58" r="64" fill="#a7f3c2" opacity="0.22"/>
+    <path d="M44 162V69h29.3l41.9 54.4L157.4 69H187v93h-29.3v-46.9l-31.8 39.7h-21.5l-31.5-39.7V162H44Z" fill="#a7f3c2"/>
+    <path d="M51 184h130" fill="none" stroke="#4ade80" stroke-linecap="round" stroke-width="14"/>
+    <path d="M171 47 196 22" fill="none" stroke="#f7fff9" stroke-linecap="round" stroke-width="10"/>
+  </g>
+
+  <g transform="translate(560 308)">
+    <text x="0" y="92" fill="#f7fff9" font-family="Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="118" font-weight="800" letter-spacing="0">MDemx</text>
+    <text x="4" y="150" fill="#a9b8af" font-family="Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="34" font-weight="500" letter-spacing="1.5">London digital studio</text>
+    <path d="M4 196H512" fill="none" stroke="#a7f3c2" stroke-opacity="0.7" stroke-linecap="round" stroke-width="5"/>
+    <text x="4" y="254" fill="#dfffea" font-family="Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="30" font-weight="600">Web design, development, SEO and digital systems</text>
+  </g>
+</svg>
