@@ -1,4 +1,4 @@
-import { MapPin, Navigation, Phone, Star } from "lucide-react";
+import { MapPin, MessageSquareText, Navigation, Phone, Star } from "lucide-react";
 import { site } from "@/lib/site";
 
 const googleBusinessProfileEnabled = false;
@@ -47,11 +47,22 @@ export function GoogleBusinessProfilePlaceholder() {
               Call MDemx
             </a>
             <a
-              href="https://www.google.com/maps/search/?api=1&query=MDemx%20London"
+              href={`https://www.google.com/maps/dir/?api=1&destination=MDemx%20London&destination_place_id=${site.googlePlaceId}`}
+              target="_blank"
+              rel="noopener noreferrer"
               className="inline-flex min-h-12 items-center justify-center gap-2 rounded-full border border-[var(--line)] px-5 text-sm font-semibold text-[var(--mint)]"
             >
               <Navigation size={16} />
               Directions
+            </a>
+            <a
+              href={site.googleReviewUrl}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex min-h-12 items-center justify-center gap-2 rounded-full border border-[var(--line)] px-5 text-sm font-semibold text-[var(--mint)]"
+            >
+              <MessageSquareText size={16} />
+              Leave a Google review
             </a>
           </div>
         </div>
@@ -59,7 +70,7 @@ export function GoogleBusinessProfilePlaceholder() {
           <div className="min-h-64 rounded-3xl border border-[var(--line)] bg-white/[0.035] p-5">
             <p className="text-sm font-semibold text-white">Google Maps embed placeholder</p>
             <p className="mt-3 text-sm leading-6 text-[var(--muted)]">
-              Replace this area with an iframe or Google Maps API component when the profile is ready.
+              Ready for a Google Maps iframe or Places API component using Place ID {site.googlePlaceId}.
             </p>
           </div>
           <div className="grid gap-3 md:grid-cols-2">

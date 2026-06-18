@@ -23,6 +23,10 @@ export const site = {
   email: process.env.NEXT_PUBLIC_CONTACT_EMAIL || "Info.mdemx@gmail.com",
   phone: process.env.NEXT_PUBLIC_CONTACT_PHONE || "+447703890837",
   whatsapp: process.env.NEXT_PUBLIC_WHATSAPP_URL || "https://wa.me/447703890837",
+  googleReviewUrl:
+    process.env.NEXT_PUBLIC_GOOGLE_REVIEW_URL || "https://g.page/r/CRDwdpuWd8L8ECE/review",
+  googlePlaceId:
+    process.env.NEXT_PUBLIC_GOOGLE_PLACE_ID || "ChIJiTLeMbriHmcREPB2m5Z3wvw",
   location: "London, UK",
   keywords: [
     "web design London",
