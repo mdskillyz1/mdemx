@@ -14,7 +14,7 @@ export default function manifest(): MetadataRoute.Manifest {
         src: "/icon-512.png?v=mdemx-3",
         sizes: "512x512",
         type: "image/png",
-        purpose: "any maskable",
+        purpose: "maskable",
       },
       {
         src: "/apple-touch-icon.png?v=mdemx-3",
