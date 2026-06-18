@@ -33,7 +33,7 @@ export default function PrivacyPolicyPage() {
           ["Sharing information", "MDemx does not sell personal information. Information may be shared with trusted service providers only where needed to deliver website, hosting, email, analytics, or business support."],
           ["Data retention", "Enquiry details may be kept for as long as needed to manage communications, quotes, project records, and legal or accounting requirements."],
           ["Your rights", "You can contact MDemx to request access, correction, or deletion of your personal information where applicable under UK data protection law."],
-          ["Contact", "For privacy questions, email Info.mdemx@gmail.com."],
+          ["Contact", "For privacy questions, email info@mdemx.co.uk."],
         ]}
       />
     </>

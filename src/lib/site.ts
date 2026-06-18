@@ -20,7 +20,7 @@ export const site = {
   description:
     "MDemx builds modern websites, SEO-ready business websites, QR ordering systems, and digital tools for small businesses in London that want more enquiries.",
   url: process.env.NEXT_PUBLIC_SITE_URL || "https://mdemx.co.uk",
-  email: process.env.NEXT_PUBLIC_CONTACT_EMAIL || "Info.mdemx@gmail.com",
+  email: process.env.NEXT_PUBLIC_CONTACT_EMAIL || "info@mdemx.co.uk",
   phone: process.env.NEXT_PUBLIC_CONTACT_PHONE || "+447703890837",
   whatsapp: process.env.NEXT_PUBLIC_WHATSAPP_URL || "https://wa.me/447703890837",
   googleReviewUrl:

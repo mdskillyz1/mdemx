@@ -25,7 +25,7 @@ export default function CookiePolicyPage() {
     ["Analytics cookies", "If analytics are added later, they may help MDemx understand page visits, popular content, and website performance."],
     ["Managing cookies", "You can control or delete cookies through your browser settings. Blocking some cookies may affect how parts of the website work."],
     ["Future updates", "This placeholder should be updated if MDemx adds analytics, advertising pixels, embedded content, CRM tools, or consent management."],
-    ["Contact", "For cookie questions, email Info.mdemx@gmail.com."],
+    ["Contact", "For cookie questions, email info@mdemx.co.uk."],
   ];
 
   return (

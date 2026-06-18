@@ -19,6 +19,10 @@ export const metadata: Metadata = {
   keywords: site.keywords,
   authors: [{ name: "Muhammed Dem" }],
   creator: "MDemx",
+  icons: {
+    icon: [{ url: "/icon.svg", type: "image/svg+xml" }],
+    shortcut: "/icon.svg",
+  },
   openGraph: {
     title: site.title,
     description: site.description,
