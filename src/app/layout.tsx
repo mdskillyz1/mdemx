@@ -20,8 +20,14 @@ export const metadata: Metadata = {
   authors: [{ name: "Muhammed Dem" }],
   creator: "MDemx",
   icons: {
-    icon: [{ url: "/icon.svg", type: "image/svg+xml" }],
-    shortcut: "/icon.svg",
+    icon: [
+      { url: "/favicon.ico?v=mdemx-3", sizes: "any" },
+      { url: "/favicon-32x32.png?v=mdemx-3", type: "image/png", sizes: "32x32" },
+      { url: "/favicon-16x16.png?v=mdemx-3", type: "image/png", sizes: "16x16" },
+      { url: "/icon.svg?v=mdemx-3", type: "image/svg+xml" },
+    ],
+    shortcut: "/favicon.ico?v=mdemx-3",
+    apple: [{ url: "/apple-touch-icon.png?v=mdemx-3", sizes: "180x180", type: "image/png" }],
   },
   openGraph: {
     title: site.title,
